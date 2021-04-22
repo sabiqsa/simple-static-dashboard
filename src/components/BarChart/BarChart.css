@@ -1,0 +1,78 @@
+.bc__container {
+  height: auto;
+
+  border: 1px solid #e5e5e5;
+  padding: 12px 24px;
+  /* width: 600px;
+  height: 400px; */
+  line-height: 1.5;
+}
+
+.bc__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  margin: 16px 0;
+}
+
+.bc__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.bc__total_desc {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bc__date {
+  border: 1px solid #e5e5e5;
+  width: 160px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bc__total_container {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.bc__total_margin {
+  display: flex;
+  align-items: center;
+}
+
+.bc__total_margin p {
+  margin: 0;
+  padding: 0;
+  color: #5f9f2f;
+}
+
+.bc__arrows {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABzSURBVHgBhYyxDYAwDASdkAHo2IKIDSgpmQDYAJgASrbIDIzABIgx6LJBcKQEvdLkpZft9+mJQIOpZ2/MCnhugsTB7nRf0XO+1w+E5x5h3tsIyRAsPCw0W84mv6gANDxKR+7Gm1KNRjtvzCRlpPDg6jUFPglrGolvYMC7AAAAAElFTkSuQmCC");
+  height: 8px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+
+.bc__calendar {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB3VMxjoJAFJ0B+rWigcIbrIHQ4w12b4A32G5L4wmIJ1j2BHuExdIEEryBNoTO1gbwPTIYNEbH2PkSZv78/9/7M+R/U1xgAriu+23b9rqqqoPyjR3HieHflWVZDfPlgDjiZprmHHuIL6nresWYYRjvUsovmCl8i6Io0jMBVgDxH+ZY6GELoSmEthZPIP8octG27QjVaKdMVASeQ8S6M+OKM7VUQsgFqp+47gcS503TzFiB/iAIJoj9wVzCn4C87zndE3zfb5XATGhAVRd5nkvrWuARWBfnROghuiqAK2k9AU+OetsQT+IFBLqfyA5jd3meF6NRNrcInIuecxIAlvhiDgx6QWhiwWU4jZzECObbPSYK/WZZltI+Ai2KaOcC33zxAAAAAElFTkSuQmCC");
+  height: 16px;
+  background-repeat: no-repeat;
+  width: 16px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .bc__container {
+    width: 360px;
+  }
+}

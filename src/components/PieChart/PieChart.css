@@ -1,0 +1,32 @@
+.pc__container {
+  border: 1px solid #e5e5e5;
+  padding: 8px;
+  /* width: 100%; */
+  /* width: 300px; */
+}
+
+.pc__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.pc__content_name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333333;
+}
+
+.pc__icon_setting {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFLSURBVHgB7ZfNbYNAEIUXjBHcKICD6WAN3OMSSAWJK4jTgTuIU0HcgZMKolSAOyASAq5c+c8by0QKB2svQA77SSN2hxXzdvfwGIWBLMtWXde9ITimFhsZRVHei6J4dhznW6PibduGiNe6ru+RzNmIRFFkLZfLR13XQ4zXSpIkJ+z8y7btA5uQOI73i8XiTsU4qKrqyCYGp324XDlOoGMzQbVVNjNSgBQgBUgBwgI45xYiGOQ2CD7IBYgVE0RYAIwjRJxc191fC3HMPynv+/6GcvSO1lBe9LvCAmAcf+aapv3+N8Df81trbyJqRnSsnucNr4D3u++hNXRdIt+81JZuyGZGCpACpIB/ISCndolNTF9ThZGcYSw7NjGmaT7g8aFBwFZV1TBN0xwd63GK5tQwjKemaXZlWa4VSl475BcMAzY+Oez6jH50S+35D0GalfVIRxI2AAAAAElFTkSuQmCC");
+  height: 40px;
+  background-repeat: no-repeat;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .pc__container {
+    width: 360px;
+  }
+}
